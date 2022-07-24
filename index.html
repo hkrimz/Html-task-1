@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 class</title>
+</head>
+<body>
+     <mark>mark tag is highlighted</mark>
+     <h1>horizontal tag</h1>
+     <hr>
+     <h2>input tags</h2>
+     <input type="button" value="submit">
+     <button>submit</button> 
+     <br>
+     <input type="checkbox">
+     <input type="color"> <br>
+     <input type="date"><br>
+     <input type="datetime-local"><br>
+     <input type="email" placeholder="Email"><br>
+     <input type="file"> <br>
+     <input type="number"><br>
+     <input type="text" placeholder="this is a text"><br>
+     <input type="password" placeholder="please enter your password"><br>
+     <input type="radio" name ="select"> male <br>
+<input type="radio" name="select"> female <br>
+<input type="range"> <br>
+<input type="reset"> <br>
+<input type="search" placeholder="search here"> <br>
+<input type="time"><br>
+<input type="url" placeholder="type the url"><br>
+<input type="week"><br>
+<select>
+    <option>male</option>
+    <option>female</option>
+    <option>other</option>
+    <input list="fruits" placeholder="type a fruit"><br>
+</select>
+<input list="students" type="text" placeholder="enter a name">
+<datalist id="students">
+    <option value="sanjay"></option>
+    <option value="sowmya"></option>
+    <option value="deva"></option>
+</datalist>
+
+<datalist id="fruits">
+    <option value="mango"></option>
+    <option value="grapes"></option>
+    <option value="apple"></option>
+</datalist>
+<br>
+<hr/>
+
+<h2>Form creation</h2>
+
+<form>
+    <label for="first-name">First Name</label>
+<input name="first-name" type="text" placeholder="first name" required>
+
+<label for="last-name">Last Name</label>
+<input name="last-name" type="text" placeholder="last name">
+<br><br>
+<label for="gender">Gender :</label>
+<input name="gender" type="radio" value="Male"> Male
+<input name="gender" type="radio" value="Female"> Female
+<input name="gender" type="radio" value="Other"> Other
+<br><br>
+<label for="mobile-number">Mobile Number</label>
+<input name="mobile-number" type="number" placeholder="Phone Number" required>
+<br><br>
+<label for="email">Email</label>
+<input name="email" type="email" placeholder="Enter a email" required>
+<br><br>
+<label for="url">Url</label>
+<input name="url" type="url" placeholder="Enter a url" required>
+<br><br>
+<label for="date-of-birth">Date Of Birth</label>
+<input name="date-of-birth" type="date">
+<br><br>
+<label for="address">Address</label>
+<input style="width: 350px; height: 50px;" name="address" type="text" placeholder="Address">
+<br><br>
+<label for="country">Country</label>
+<input list="country" type="text" placeholder="enter a country">
+<datalist id="country">
+    <option value="India"></option>
+    <option value="USA"></option>
+    <option value="Canada"></option>
+</datalist>
+<br><br>
+<label for="Hobbies">Hobbies</label>
+<select name="Hobbies">
+    <option>Reading</option>
+    <option>Gardening</option>
+    <option>Sports</option>
+</select>
+<br><br>
+<textarea style="width: 250px; height: 100px; background-color: blue; color: black;" placeholder="write a review"></textarea>
+<br><br>
+<button type="submit">Submit</button>
+<br><br>
+<hr>
+
+<h2>Table Creation</h2>
+<br><br>
+<table border="1" cellspacing="5" cellpadding="5">
+<thead>
+<tr>
+    <th>student name</th>
+    <th>birth place</th>
+    <th>experience</th>
+    <th>education</th>
+</tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>Hari</td>
+        <td colspan="2">Coimbatore</td>
+        <td>2years</td>
+        <td>B.E</td>
+    </tr>
+    <tr>
+        <td>sanjay</td>
+        <td>chennai</td>
+        <td>3years</td>
+        <td>B.E</td>
+    </tr>
+
+</tbody>
+
+</table>
+</form>
+
+
+
+
+
+
+</body>
+</html>
